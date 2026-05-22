@@ -1,7 +1,12 @@
 function fn1(...args) {
-  console.log(...args);
+  console.log('fn1',...args);
 }
 
 function fn2(...args) {
-  console.log(...args);
+  console.log('fn2', ...args);
+}
+
+export default {
+    fn1,
+    fn2
 }
